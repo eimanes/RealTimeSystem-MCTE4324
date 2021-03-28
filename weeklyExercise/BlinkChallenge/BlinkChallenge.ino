@@ -1,14 +1,4 @@
-/**
- * Solution to 02 - Blinky Challenge
- * 
- * Toggles LED at different rates using separate tasks.
- * 
- * Date: December 3, 2020
- * Author: Shawn Hymel
- * License: 0BSD
- */
 
-// Use only core 1 for demo purposes
 #if CONFIG_FREERTOS_UNICORE
 static const BaseType_t app_cpu = 0;
 #else
